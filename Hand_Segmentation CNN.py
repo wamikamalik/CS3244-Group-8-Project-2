@@ -113,7 +113,7 @@ for i in range(0, 8):
     counts.append(Y_train_resized.count(i))
 np.argmin(counts)
 
-df_resized_train = pd.DataFrame({"img": range(12555), "class": Y_train_resized})
+df_resized_train = pd.DataFrame({"img": range(5455), "class": Y_train_resized})
 print(df_resized_train)
 
 from sklearn.utils import resample
