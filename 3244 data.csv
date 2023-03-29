@@ -3,7 +3,9 @@ test,c0,1,Right,M,1,104,000.jpg,00117.jpg
 test,c0,1,Right,M,2,36,00118.jpg,00157.jpg
 test,c0,1,Right,M,3,43,00245.jpg,00321.jpg
 test,c0,1,Right,F,4,83,00322.jpg,00415.jpg
-test,c0,2,Left,F,5,60,10794.jpg,109694.jpg
+test,c0,2,Left,F,5,1,10794.jpg,10794.jpg
+test,c0,2,Left,M,7,20,106337.jpg,106841.jpg
+test,c0,2,Left,F,5,39,107142.jpg,109694.jpg
 test,c0,2,Left,M,6,20,1013278.jpg,1013798.jpg
 test,c1,1,Right,M,1,95,016.jpg,0361.jpg
 test,c1,1,Right,M,2,56,0370.jpg,01137.jpg
