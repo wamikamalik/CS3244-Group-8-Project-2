@@ -68,8 +68,8 @@ for cls in TRAIN_CLS:
         ori_img[mask == 1] = 255
         cv2.imwrite(os.path.join(os.getcwd(), "Distracted Driver Dataset", finalfolder, "train", ori_name + ".png"),
                     ori_img)
-        X_test.append(os.path.join(os.getcwd(), "Distracted Driver Dataset", finalfolder, "train", ori_name + ".png"))
-        Y_test.append(int(naming(cls)[1]))
+        X_train.append(os.path.join(os.getcwd(), "Distracted Driver Dataset", finalfolder, "train", ori_name + ".png"))
+        Y_train.append(int(naming(cls)[1]))
 
 X_train = np.array(X_train)
 X_test = np.array(X_test)
@@ -113,7 +113,7 @@ for i in range(0, 8):
     counts.append(Y_train_resized.count(i))
 np.argmin(counts)
 
-df_resized_train = pd.DataFrame({"img": range(5455), "class": Y_train_resized})
+df_resized_train = pd.DataFrame({"img": range(10225), "class": Y_train_resized})
 print(df_resized_train)
 
 from sklearn.utils import resample
