@@ -1,4 +1,4 @@
-- Data zip file is password protected, password: 57Rk!F8yUz38
+- Data provided upon request
 - Please unzip the data and models file before running the notebooks
 - Please download the models for face and hand extraction into the models folder.
 	- Face models can be downloaded from here:
